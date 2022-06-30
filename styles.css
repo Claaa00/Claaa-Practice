@@ -134,6 +134,7 @@ body {
     width: 23rem;
     height: 12rem;
     border-radius: 8px;
+    max-width: 100%;
 }
 
 .content-title {
