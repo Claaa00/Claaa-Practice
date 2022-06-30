@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: raleway;
+    background-color: #152238;
+    color: white;
+    
+}
+
+.header-container, .intro-container, .footer-container {
+    margin: 60px 60px 60px 60px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.left-header {
+    margin-top: 40px;
+}
+
+.site-name {
+    flex-grow: 1;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.settings {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    text-align: right;
+    color: #3a7ca5;
+}
+
+.nav .header-ul {
+    margin: 40px 0px 30px 0px;
+}
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ffffff;
+    color: #152238;
+}
+.nav .header-a {
+    padding: 10px 10px 10px 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.intro-container {
+    margin: 60px 90px 60px 90px;
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #3a7ca5;
+}
+
+.intro-message {
+    font-size: 1.9rem;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+
+.register-button {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #152238;
+    padding: 40px 50px;
+    font-size: 23px;
+    /* cursor: pointer; */
+    border-color: white;
+}
+
+.register-button:hover {
+    background-color: #ffffff;
+    color: #152238;
+}
+
+.content-container {
+    background-size: contain;
+    padding: 60px 60px 60px 60px;
+    margin: 100px 0px 100px 0px;
+    background-color: white;
+    color: #3a7ca5;
+}
+
+.contents {
+    background-color: white;
+    columns: 3;
+    display: flex;
+}
+
+.content {
+    columns: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.content-header, .content-image, .content-title, .content-par{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
+.content-header, .content-title {
+    text-align: left;
+}
+
+.content-header {
+    letter-spacing: 1px;
+}
+
+.content-image {
+    width: 23rem;
+    height: 12rem;
+    border-radius: 8px;
+}
+
+.content-title {
+    font-size: 1.5rem;
+    font-weight: 590;
+}
+
+.content-par {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.footer-container {
+    display: flex;
+    font-weight: lighter;
+    padding: 0;
+}
+
+.copyright {
+    flex-grow: 1;
+    font-weight: lighter;
+}
+
+.footer-nav {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.nav .footer-a {
+    padding: 10px 10px 10px 10px;
+}

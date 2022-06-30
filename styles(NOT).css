@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+    box-sizing: border-box;
+}
+
+/* for all */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background-color: #152238;
+    color: whitesmoke;
+    background-size: contain;
+}
+
+/* for all parts */
+.container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+}
+
+/* .header-container {
+    padding-right: 1rem;
+} */
+
+/* container with images */
+.content-container  {
+    color: #3a7ca5;
+    background-color: white;
+    padding-top: 5rem;
+}
+
+/* headings */
+h1 {
+    font-weight: lighter;
+    font-size: 4em;
+}
+
+/* for intro title/message */
+h2{
+    color: #3a7ca5;
+    font-size: 3em;
+    font-weight: lighter;
+    margin: 0px 0px;
+}
+
+/* for h3 in left-header */
+.settings {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #3a7ca5;
+    text-align: right;
+    margin-left: 10rem;
+}
+
+/* nav + date */
+.left-header {
+    padding-left: 0;
+    padding-right: 0;
+    /* text-indent: 4em; */
+    margin-top: 45px;
+
+}
+
+/* for all navs */
+.nav ul {
+    margin-left: 220px;
+    padding: 5px;
+}
+
+/* for navs listing (to show in one line) */
+.nav li {
+    
+    font-weight:bold;
+    display: inline;
+}
+
+/* for each navs */
+.nav a {
+    /* text-indent: 3em; */
+    color: whitesmoke;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* for nav in header */
+.header-nav {
+    
+    font-size: 1.3rem;
+    
+}
+
+.intro-container {
+    display: inline-block;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0rem 4rem 1.5rem 4rem;
+}
+
+.intro-container p{
+    font-size: 1.8rem;
+    margin: 0px 0px;
+    line-height: 50px;
+}
+
+button {
+    background-color: #152238;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    box-shadow: none;
+    margin: 2em;
+    padding: 25px 45px 25px 45px;
+}
+
+.content-header {
+    display: block;
+    width: 100%;
+    font-weight: 200%;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.content-image {
+    height: 13rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.content-title {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.content-par {
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    margin: 0px;
+}
+
+.contents {
+    display: inline-block;
+    columns: 3;
+}
+
+.copyright {
+flex-grow: 1;
+}
+
+.footer-nav {
+    float: right;
+}
